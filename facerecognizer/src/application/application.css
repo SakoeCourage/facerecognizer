@@ -1,0 +1,77 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.gradient-background {
+    -fx-background-color: linear-gradient( #155e75 0%, #0c4a6e 20%, #0c4a6e 70%, #155e75 100%);
+    
+}
+
+.border-pane-bg{
+	-fx-background-color: #083344;
+	-fx-opacity: 0.9;
+}
+
+.cirlce-indicators{
+	-fx-fill:  #bae6fd;
+	-fx-stroke-width: 1.5;
+	-fx-stroke:  #e0e7ff;
+	-fx-effect: dropshadow(gaussian, #e0e7ff, 1, 1, 0, 0);
+	
+}
+
+.text-input{
+	-fx-text-fill: #ffffff;
+	-fx-background-color: transparent;
+	-fx-border-color: #ffffff;
+	   -fx-border-color: transparent transparent #ffffff transparent; 
+    -fx-border-width: 0 0 2 0; 
+    -fx-border-style: hidden hidden solid hidden; 
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+	
+}
+.input-label{
+	-fx-text-fill: #ffffff;
+	-fx-background-color: transparent;
+	-fx-border-color: #ffffff;
+	   -fx-border-color: transparent transparent #ffffff transparent; 
+    -fx-border-width: 0 0 2 0; 
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-font-weight: bold; 
+    
+	
+}
+
+.settings-label{
+	-fx-text-fill: #ffffff;
+	-fx-background-color: transparent;
+    -fx-font-weight: bold; 
+	
+}
+
+.setting-button{
+	-fx-text-fill: #ffffff;
+	-fx-background-color: transparent;
+	-fx-border-color: #ffffff;
+	   -fx-border-color: transparent transparent #ffffff transparent; 
+    -fx-border-width: 0 0 2 0; 
+    -fx-border-style: hidden hidden solid hidden; 
+	
+}
+.setting-button-white{
+	-fx-background-color: transparent;
+	-fx-text-fill: #ffffff;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1.5;
+	-fx-font-size: 15;
+	
+	
+	
+}
+
+.rounded-corner-modal-stage {
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-border-color: #000000; 
+}
